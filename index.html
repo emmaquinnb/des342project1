@@ -7,9 +7,11 @@
 
     div {
 			border: 2px solid black;
+			border-bottom: none;
 			padding: 40px;
-      margin-left: 200px;
-      margin-right: 200px;
+			height: 445px;
+			width: 930px;
+      margin: auto;
 		}
 
 		p {
@@ -18,13 +20,14 @@
 			text-align: left;
 		}
 
-		.line2, .line3, .line4, .line5, .line6, .line7, .line8, .line9, .line10, .line11, .line12, .nest-1, .nest-2, .eggs-1, .eggs-2, .treebird-1, .treebird-2, .treebird-3, .treebird-4, .rain, .wind, .notes, .birddown-1, .birddown-2, .birddown-3, .birddown-4, .birdup-1, .birdup-2, .birdup-3, .birdup-4, .birdup-5, .birdworm-1, .birdworm-2, .birdworm-3, .birdworm-4, .birdworm-5, .zoomtree-1, .zoomtree-2, .zoomnest-1, .zoomnest-2, .zoomeggs-1, .zoomeggs-2, .zoomtreebird-1, .zoomtreebird-2, .zoomtreebird-3, .zoomtreebird-4, .zoombirdworm-1, .zoombirdworm-2, .zoombirdworm-3, .zoombirdworm-4, .zoombirdworm-5, .zoomnotes, .zoomgrass, .zoomdrops, .birdgrass-1, .birdgrass-2, .birdgrass-3, .birdgrass-4, .birdgrass-5  {
+		.line2, .line3, .line4, .line5, .line6, .line7, .line8, .line9, .line10, .line11, .line12, .nest-1, .nest-2, .eggs-1, .eggs-2, .treebird-1, .treebird-2, .treebird-3, .treebird-4, .notes, .rain, .wind, .birddown-1, .birddown-2, .birddown-3, .birddown-4, .birdup-1, .birdup-2, .birdup-3, .birdup-4, .birdup-5, .birdworm-1, .birdworm-2, .birdworm-3, .birdworm-4, .birdworm-5, .zoomtree-1, .zoomtree-2, .zoomnest-1, .zoomnest-2, .zoomeggs-1, .zoomeggs-2, .zoomtreebird-1, .zoomtreebird-2, .zoomtreebird-3, .zoomtreebird-4, .zoomnotes, .zoombirdworm-1, .zoombirdworm-2, .zoombirdworm-3, .zoombirdworm-4, .zoombirdworm-5, .zoomgrass, .zoomdrops, .birdgrass-1, .birdgrass-2, .birdgrass-3, .birdgrass-4, .birdgrass-5  {
        display: none;
      }
 
     .drawing {
 			position: relative;
-			height: 70vh;
+			height: 445px;
+			width: 930px;
 		}
 
   svg {
@@ -37,143 +40,137 @@
 			left: 300px;
 		}
 
-  .treebird-1, .treebird-2, .treebird-3, .treebird-4  {
-    height: 50px;
-    position: absolute;
-    top: 40px;
-    left: 40px;
-  }
-
   .grass {
 		position: absolute;
 		bottom: 0;
 		left: 0;
   }
 
-  .nest-1, nest-2 {
+  .nest-1, .nest-2 {
     height: 40px;
     position: absolute;
-    top: 396px;
-    left: 740px;
+    top: 292px;
+    left: 617px;
   }
 
   .eggs-1, .eggs-2 {
     height: 20px;
     position: absolute;
-    top: 403px;
-    left: 752px;
+    top: 299px;
+    left: 630px;
   }
 
-  .treebird-1, .treebird-2, .treebird-3, .treebird-4 {
-    position: absolute;
-    top: 372px;
-    left: 958px;
-  }
+	.treebird-1, .treebird-2, .treebird-3, .treebird-4  {
+		height: 50px;
+		position: absolute;
+		top: 267px;
+		left: 960px;
+	}
 
-.rain {
-  height: 73vh;
-  position: absolute;
-  top: 11px;
-  left: 247px;
-}
+	.rain {
+	  height: 480px;
+	  position: absolute;
+	  top: 10px;
+	  left: 420px;
+	}
 
-.wind {
-  height: 42vh;
-  position: absolute;
-  top: 182px;
-  left: 247px;
-}
+	.wind {
+	  height: 280px;
+	  position: absolute;
+	  top: 140px;
+	  left: 397px;
+	}
 
-.notes {
-	height: 100px;
-	position: absolute;
-  top: 270px;
-  left: 825px;
-}
+	.notes {
+		height: 100px;
+		position: absolute;
+	  top: 170px;
+	  left: 830px;
+	}
 
-.birddown-1, .birddown-2, .birddown-3, .birddown-4 {
-	height: 60px;
-	position: absolute;
-	top: 465px;
-	left: 785px;
-}
+	.birddown-1, .birddown-2, .birddown-3, .birddown-4 {
+		height: 60px;
+		position: absolute;
+		top: 359px;
+		left: 785px;
+	}
 
-.birdup-1, .birdup-2, .birdup-3, .birdup-4, .birdup-5 {
-	height: 60px;
-	position: absolute;
-	top: 465px;
-	left: 785px;
-}
+	.birdup-1, .birdup-2, .birdup-3, .birdup-4, .birdup-5 {
+		height: 60px;
+		position: absolute;
+		top: 359px;
+		left: 785px;
+	}
 
-.birdworm-1, .birdworm-2, .birdworm-3, .birdworm-4, .birdworm-5 {
-	height: 50px;
-	position: absolute;
-	top: 372px;
-	left: 958px;
-}
+	.birdworm-1, .birdworm-2, .birdworm-3, .birdworm-4, .birdworm-5 {
+		height: 50px;
+		position: absolute;
+		top: 267px;
+		left: 960px;
+	}
 
-.zoomtree-1, .zoomtree-2 {
-	height: 79.5vh;
-	position: absolute;
-	top: 10px;
-	left: 500px;
-}
+	.zoomtree-1, .zoomtree-2 {
+		height: 526px;
+		position: absolute;
+		top: 10px;
+		left: 590px;
+	}
 
-.zoomnest-1, .zoomnest-2 {
-	height: 20vh;
-	position: absolute;
-	top: 434px;
-	left: 705px;
-}
+	.zoomnest-1, .zoomnest-2 {
+		height: 130px;
+		position: absolute;
+		top: 335px;
+		left: 749px;
+	}
 
-.zoomeggs-1, .zoomeggs-2 {
-	height: 11vh;
-	position: absolute;
-	top: 454px;
-	left: 750px;
-}
+	.zoomeggs-1, .zoomeggs-2 {
+		height: 70px;
+		position: absolute;
+		top: 351px;
+		left: 785px;
+	}
 
-.zoomtreebird-1, .zoomtreebird-2, .zoomtreebird-3, .zoomtreebird-4 {
-	height: 20vh;
-	position: absolute;
-	top: 325px;
-	left: 762px;
-}
+	.zoomtreebird-1, .zoomtreebird-2, .zoomtreebird-3, .zoomtreebird-4 {
+		height: 130px;
+		position: absolute;
+		top: 250px;
+		left: 796px;
+	}
 
-.zoombirdworm-1, .zoombirdworm-2, .zoombirdworm-3, .zoombirdworm-4, .zoombirdworm-5 {
-	height: 20vh;
-	position: absolute;
-	top: 325px;
-	left: 762px;
-}
+	.zoombirdworm-1, .zoombirdworm-2, .zoombirdworm-3, .zoombirdworm-4, .zoombirdworm-5 {
+		height: 20vh;
+		position: absolute;
+		top: 325px;
+		left: 762px;
+	}
 
-.zoomnotes {
-	height: 30vh;
-	position: absolute;
-	top: 76px;
-	left: 450px;
-}
+	.zoomnotes {
+		height: 150px;
+		position: absolute;
+		top: 76px;
+		left: 630px;
+	}
 
-.zoomgrass {
-	height: 244px;
-	position: absolute;
-	bottom: 168px;
-	left: 208px;
-}
+	.zoomgrass {
+		height: 195px;
+		position: absolute;
+		bottom: 330px;
+		left: 336px;
+	}
 
-.zoomdrops {
-	height: 50vh;
-	position: absolute;
-	top: 10px;
-	left: 250px;
-}
+	.zoomdrops {
+		height: 300px;
+		position: absolute;
+		top: 10px;
+		left: 400px;
+	}
 
-.birdgrass-1, .birdgrass-2, .birdgrass-3, .birdgrass-4, .birdgrass-5 {
-	height: 50vh;
-	position: absolute;
-	top: 80px;
-	left: 900px;
-}
+	.birdgrass-1, .birdgrass-2, .birdgrass-3, .birdgrass-4, .birdgrass-5 {
+		height: 310px;
+		position: absolute;
+		top: 55px;
+		left: 900px;
+	}
 
 	</style>
 </head>
@@ -291,61 +288,85 @@
   	$('.line1 button').click(function(){
   		$('.line1').css('display','none')
   		$('.line2').css('display','block')
+			$('.nest-1, .nest-2, .eggs-1, .eggs-2, .treebird-1, .treebird-2, .treebird-3, .treebird-4').css('display', 'block')
   	})
 
   	$('.line2 button').click(function(){
   		$('.line2').css('display','none')
   		$('.line3').css('display','block')
+			$('.tree-1, .tree-2, .tree-3, .grass, .nest-1, .nest-2, .eggs-1, .eggs-2, .treebird-1, .treebird-2, .treebird-3, .treebird-4, .notes').css('display', 'none')
+			$('.zoomtree-1, .zoomtree-2, .zoomnest-1, .zoomnest-2, .zoomeggs-1, .zoomeggs-2, .zoomtreebird-1, .zoomtreebird-2, .zoomtreebird-3, .zoomtreebird-4, .zoomnotes').css('display', 'block')
   	})
 
     $('.line3 button').click(function(){
   		$('.line3').css('display','none')
   		$('.line4').css('display','block')
+			$('.tree-1, .tree-2, .tree-3, .grass, .nest-1, .nest-2, .eggs-1, .eggs-2, .treebird-1, .treebird-2, .treebird-3, .treebird-4, .notes').css('display', 'block')
+			$('.zoomtree-1, .zoomtree-2, .zoomnest-1, .zoomnest-2, .zoomeggs-1, .zoomeggs-2, .zoomtreebird-1, .zoomtreebird-2, .zoomtreebird-3, .zoomtreebird-4, .zoomnotes').css('display', 'none')
+
   	})
 
     $('.line4 button').click(function(){
   		$('.line4').css('display','none')
   		$('.line5').css('display','block')
+			$('.notes').css('display', 'none')
+			$('.nest-1, .nest-2, .eggs-1, .eggs-2, .treebird-1, .treebird-2, .treebird-3, .treebird-4').css('display', 'block')
   	})
 
     $('.line5 button').click(function(){
   		$('.line5').css('display','none')
   		$('.line6').css('display','block')
+			$('.rain').css('display', 'block')
   	})
 
     $('.line6 button').click(function(){
   		$('.line6').css('display','none')
   		$('.line7').css('display','block')
+			$('.wind').css('display', 'block')
   	})
 
     $('.line7 button').click(function(){
   		$('.line7').css('display','none')
   		$('.line8').css('display','block')
+			$('.tree-1, .tree-2, .tree-3, .grass, .nest-1, .nest-2, .eggs-1, .eggs-2, .treebird-1, .treebird-2, .treebird-3, .treebird-4 .wind, .rain').css('display', 'none')
+			$('.zoomtree-1, .zoomtree-2, .zoomnest-1, .zoomnest-2, .zoomeggs-1, .zoomeggs-2, .zoomtreebird-1, .zoomtreebird-2, .zoomtreebird-3, .zoomtreebird-4').css('display', 'block')
   	})
 
     $('.line8 button').click(function(){
   		$('.line8').css('display','none')
   		$('.line9').css('display','block')
+			$('.tree-1, .tree-2, .tree-3, .grass, .nest-1, .nest-2, .eggs-1, .eggs-2, .wind, .rain').css('display', 'block')
+			$('.zoomtree-1, .zoomtree-2, .zoomnest-1, .zoomnest-2, .zoomeggs-1, .zoomeggs-2, .zoomtreebird-1, .zoomtreebird-2, .zoomtreebird-3, .zoomtreebird-4').css('display', 'none')
+			$('.birddown-1, .birddown-2, .birddown-3, .birddown-4').css('display', 'block')
   	})
 
     $('.line9 button').click(function(){
   		$('.line9').css('display','none')
   		$('.line10').css('display','block')
+			$('.birddown-1, .birddown-2, .birddown-3, .birddown-4').css('display', 'none')
+			$('.tree-1, .tree-2, .tree-3, .grass, .nest-1, .nest-2, .eggs-1, .eggs-2, .wind, .rain').css('display', 'none')
+			$('.zoomgrass, .zoomdrops, .birdgrass-1, .birdgrass-2, .birdgrass-3, .birdgrass-4, .birdgrass-5').css('display','block')
   	})
 
     $('.line10 button').click(function(){
   		$('.line10').css('display','none')
   		$('.line11').css('display','block')
+			$('.zoomgrass, .zoomdrops, .birdgrass-1, .birdgrass-2, .birdgrass-3, .birdgrass-4, .birdgrass-5').css('display','none')
+			$('.birdup-1, .birdup-2, .birdup-3, .birdup-4').css('display', 'block')
+			$('.tree-1, .tree-2, .tree-3, .grass, .nest-1, .nest-2, .eggs-1, .eggs-2, .wind, .rain').css('display', 'block')
   	})
 
     $('.line11 button').click(function(){
   		$('.line11').css('display','none')
   		$('.line12').css('display','block')
+			$('.birdup-1, .birdup-2, .birdup-3, .birdup-4').css('display', 'none')
+			$('.birdworm-1, .birdworm-2, .birdworm-3, .birdworm-4, .birdworm-5').css('display', 'block')
   	})
 
     $('.line12 button').click(function(){
   		$('.line12').css('display','none')
   		$('.line1').css('display','block')
+			$('.birdworm-1, .birdworm-2, .birdworm-3, .birdworm-4, .birdworm-5, .rain, .wind').css('display', 'none')
   	})
 
   </script>
